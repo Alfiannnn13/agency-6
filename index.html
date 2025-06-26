@@ -2,23 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- meta tag -->
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Cognify - Kami Membuat Produk Handmade Berkualitas Terbaik</title>
     <meta
       name="title"
       content="Cognify - Kami Membuat Produk Handmade Berkualitas Terbaik"
     />
     <meta
       name="description"
-      content="Cognify adalah perusahaan yang mengkhususkan diri dalam pembuatan produk handmade berkualitas tinggi. Kami berkomitmen untuk memberikan produk terbaik dengan sentuhan personal."
+      content="This is a Handmade Products html template made by codewithsadee"
     />
-    <title>Cognify - Kami Membuat Produk Handmade Berkualitas Terbaik</title>
 
-    <!-- favicon -->
-    <link rel="shorcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-    <!-- google font -->
+    <!-- 
+    - google font link
+  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,17 +33,26 @@
       rel="stylesheet"
     />
 
-    <!-- custom css -->
+    <!-- 
+    - custom css link
+  -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!-- preload img -->
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg" />
   </head>
-  <body>
-    <!-- header -->
 
-    <header class="header">
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
       <div class="container">
-        <a href="#" class="logo">Cognify</a>
+        <a href="#" class="logo">CognifyVerse</a>
 
         <nav class="navbar" data-navbar>
           <button
@@ -51,14 +67,17 @@
             <li>
               <a href="#" class="navbar-link">Home</a>
             </li>
+
             <li>
               <a href="#" class="navbar-link">Tentang Kami</a>
             </li>
+
             <li>
               <a href="#" class="navbar-link">Blog</a>
             </li>
+
             <li>
-              <a href="#" class="navbar-link">Kontak Kami</a>
+              <a href="#" class="navbar-link">Kontak Kami </a>
             </li>
           </ul>
         </nav>
@@ -71,10 +90,858 @@
       </div>
     </header>
 
-    <!-- custom js -->
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">
+                Kami Hadirkan Produk
+                <span class="span">Handmade Berkualitas Tinggi</span>
+              </h1>
+
+              <p class="section-text">
+                Kerajinan tangan unik yang dibuat dengan penuh ketelitian dan
+                cinta. Jelajahi koleksi terbaik kami yang siap mempercantik
+                ruangmu.
+              </p>
+
+              <a href="#" class="btn">
+                <span class="span">Lihat Koleksi</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+            <div class="wrapper">
+              <div
+                class="hero-banner-1 img-holder"
+                style="--width: 400; --height: 550"
+              >
+                <img
+                  src="./assets/images/hero-banner-1.jpg"
+                  width="400"
+                  height="550"
+                  alt="view of assortment of decor for interior shop"
+                  class="img-cover"
+                />
+              </div>
+
+              <div
+                class="hero-banner-2 img-holder"
+                style="--width: 500; --height: 850"
+              >
+                <img
+                  src="./assets/images/hero-banner-2.jpg"
+                  width="500"
+                  height="850"
+                  alt="ceramic craft ware"
+                  class="img-cover"
+                />
+              </div>
+
+              <img
+                src="./assets/images/hero-shape.png"
+                width="570"
+                height="676"
+                alt="laves"
+                class="shape"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" aria-label="about">
+          <div class="container">
+            <div class="wrapper">
+              <figure
+                class="about-banner about-banner-1 img-holder"
+                style="--width: 600; --height: 480"
+              >
+                <img
+                  src="./assets/images/about-1.jpg"
+                  width="600"
+                  height="480"
+                  loading="lazy"
+                  alt="craftman in workshop"
+                  class="img-cover"
+                />
+              </figure>
+
+              <h2 class="h2 section-title">Berkarya Sejak 1928</h2>
+            </div>
+
+            <figure
+              class="about-banner about-banner-2 img-holder"
+              style="--width: 500; --height: 700"
+            >
+              <img
+                src="./assets/images/about-2.jpg"
+                width="500"
+                height="700"
+                loading="lazy"
+                alt="interior view of a leather shop selling belts brac"
+                class="img-cover"
+              />
+            </figure>
+
+            <div class="about-content">
+              <h3 class="h2 section-title">
+                Desain Inovatif adalah Gairah Kami
+              </h3>
+
+              <p class="section-text">
+                Pengrajin berpengalaman dengan semangat yang tak pernah padam.
+                Kami percaya desain yang inovatif adalah kunci untuk menciptakan
+                karya yang berkesan.
+              </p>
+
+              <a href="#" class="btn">
+                <span class="span">Selengkapnya</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+
+              <figure
+                class="about-banner about-banner-3 img-holder"
+                style="--width: 850; --height: 420"
+              >
+                <img
+                  src="./assets/images/about-3.jpg"
+                  width="850"
+                  height="420"
+                  loading="lazy"
+                  alt="concentrated artisans in workshop"
+                  class="img-cover"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #COLLECTION
+      -->
+
+        <section
+          class="section collection text-center"
+          aria-labelledby="collection-label"
+        >
+          <div class="container">
+            <h2 class="h2 section-title" id="collection-label">
+              Koleksi Kerajinan Tangan Unik
+            </h2>
+
+            <p class="section-text">
+              Setiap produk punya cerita. Temukan berbagai karya seni handmade
+              yang siap jadi pelengkap ruang dan gaya hidupmu
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="collection-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 500; --height: 550"
+                  >
+                    <img
+                      src="./assets/images/collection-1.jpg"
+                      width="500"
+                      height="550"
+                      loading="lazy"
+                      alt="Gerabah & Keramik"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Gerabah & Keramik</h3>
+
+                    <p class="card-text">
+                      Sentuhan klasik dalam bentuk modern.
+                    </p>
+
+                    <a href="#" class="btn">
+                      <span class="span">Lihat Galeri</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="collection-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 500; --height: 550"
+                  >
+                    <img
+                      src="./assets/images/collection-2.jpg"
+                      width="500"
+                      height="550"
+                      loading="lazy"
+                      alt="Kerajinan Kulit"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Kerajinan Kulit</h3>
+
+                    <p class="card-text">
+                      Elegan dan tahan lama, cocok untuk berbagai gaya.
+                    </p>
+
+                    <a href="#" class="btn">
+                      <span class="span">Lihat Galeri</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="collection-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 500; --height: 550"
+                  >
+                    <img
+                      src="./assets/images/collection-3.jpg"
+                      width="500"
+                      height="550"
+                      loading="lazy"
+                      alt="Home Decoration"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Dekorasi Rumah</h3>
+
+                    <p class="card-text">
+                      Estetik, fungsional, dan menambah kehangatan ruanganmu.
+                    </p>
+
+                    <a href="#" class="btn">
+                      <span class="span">Lihat Galeri</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="feature" aria-label="features">
+          <div
+            class="feature-banner has-bg-image has-after"
+            style="background-image: url('./assets/images/feature-banner.jpg')"
+          >
+            <button
+              class="play-btn"
+              aria-label="play video: man making handmade belt"
+            >
+              <img
+                src="./assets/images/play.svg"
+                width="60"
+                height="60"
+                loading="lazy"
+                alt="play icon"
+              />
+            </button>
+          </div>
+
+          <div class="section feature-content">
+            <div class="container">
+              <h2 class="h2 section-title">
+                Kami Penuh Semangat dalam Elegansi dan Keindahan
+              </h2>
+
+              <p class="section-text">
+                Setiap detail kami perhatikan agar menghasilkan karya yang tak
+                hanya indah, tapi juga bermakna.
+              </p>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-list-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/feature-icon-1.svg"
+                        width="45"
+                        height="45"
+                        loading="lazy"
+                        alt="review icon"
+                      />
+                    </div>
+
+                    <div>
+                      <h3 class="h4 card-title">100% Bergaransi</h3>
+
+                      <p class="card-text">
+                        Kualitas adalah prioritas utama kami.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-list-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/feature-icon-2.svg"
+                        width="45"
+                        height="45"
+                        loading="lazy"
+                        alt="badge icon"
+                      />
+                    </div>
+
+                    <div>
+                      <h3 class="h4 card-title">Tim Profesional</h3>
+
+                      <p class="card-text">
+                        Dikerjakan oleh tangan-tangan ahli yang berpengalaman.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-list-card">
+                    <div class="card-icon">
+                      <img
+                        src="./assets/images/feature-icon-3.svg"
+                        width="45"
+                        height="45"
+                        loading="lazy"
+                        alt="money bag icon"
+                      />
+                    </div>
+
+                    <div>
+                      <h3 class="h4 card-title">Harga Terjangkau</h3>
+
+                      <p class="card-text">
+                        Produk premium tanpa membuat dompet menjerit.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <p>
+                Nunc cursus ante libero, et convallis eros tristique nec. Fusce
+                consequat lectus dui, nec laoreet purus venenatis id.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section class="section testi" aria-label="testimonials">
+          <div class="container">
+            <div class="testi-card">
+              <p class="card-text">
+                Kualitas dan detail produknya luar biasa. Sangat
+                merekomendasikan untuk pecinta kerajinan tangan.
+              </p>
+
+              <p class="client-name">Alfian</p>
+
+              <p class="client-title">Founder Cognify</p>
+
+              <img
+                src="./assets/images/quote.svg"
+                width="50"
+                height="50"
+                loading="lazy"
+                class="icon"
+                alt="quote"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #GALLERY
+      -->
+
+        <section class="gallery">
+          <ul class="gallery-list">
+            <li>
+              <div
+                class="gallery-card has-bg-image has-after"
+                style="background-image: url('./assets/images/gallery-1.jpg')"
+              >
+                <div class="card-content">
+                  <h3 class="h3 card-title">Vas & Pot Tanaman</h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lihat Galery</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div
+                class="gallery-card has-bg-image has-after"
+                style="background-image: url('./assets/images/gallery-2.jpg')"
+              >
+                <div class="card-content">
+                  <h3 class="h3 card-title">Kerajinan Tanah Liat</h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lihat Galery</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div
+                class="gallery-card has-bg-image has-after"
+                style="background-image: url('./assets/images/gallery-3.jpg')"
+              >
+                <div class="card-content">
+                  <h3 class="h3 card-title">Patung Miniatur</h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lihat Galery</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div
+                class="gallery-card has-bg-image has-after"
+                style="background-image: url('./assets/images/gallery-4.jpg')"
+              >
+                <div class="card-content">
+                  <h3 class="h3 card-title">Aksesori Unik</h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lihat Galery</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" aria-labelledby="blog-label">
+          <div class="container">
+            <h2 class="h2 section-title text-center" id="blog-label">
+              Blog & Berita Terbaru
+            </h2>
+
+            <p class="section-text text-center">
+              Tips, teknik, dan cerita di balik layar dari proses pembuatan
+              kerajinan kami.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1024; --height: 683"
+                  >
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      width="1024"
+                      height="683"
+                      loading="lazy"
+                      alt="The Detail Process Of Decorating The Clay Vase At Pottery Studio"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a href="#" class="card-title">
+                        Tips, teknik, dan cerita di balik layar dari proses
+                        pembuatan kerajinan kami.
+                      </a>
+                    </h3>
+
+                    <div class="card-meta">
+                      <a href="#" class="card-meta-wrapper">
+                        <ion-icon
+                          name="person-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">admin</span>
+                      </a>
+
+                      <time class="card-meta-wrapper" datetime="2024-10-12">
+                        <ion-icon
+                          name="calendar-clear-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">October 12, 2024</span>
+                      </time>
+
+                      <a href="#" class="card-meta-wrapper">
+                        <ion-icon
+                          name="folder-open-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Tips & Trick</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1024; --height: 683"
+                  >
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      width="1024"
+                      height="683"
+                      loading="lazy"
+                      alt=" Teknik Membuat Dompet Kulit Asli"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a href="#" class="card-title">
+                        Teknik Membuat Dompet Kulit Asli
+                      </a>
+                    </h3>
+
+                    <div class="card-meta">
+                      <a href="#" class="card-meta-wrapper">
+                        <ion-icon
+                          name="person-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">admin</span>
+                      </a>
+
+                      <time class="card-meta-wrapper" datetime="2024-10-12">
+                        <ion-icon
+                          name="calendar-clear-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">October 12, 2024</span>
+                      </time>
+
+                      <a href="#" class="card-meta-wrapper">
+                        <ion-icon
+                          name="folder-open-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Tips & Trick</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1024; --height: 683"
+                  >
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      width="1024"
+                      height="683"
+                      loading="lazy"
+                      alt="5 Latest And Trending Handmade Crafts For Adults And Kids"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a href="#" class="card-title">
+                        5 Kerajinan Handmade Terbaru untuk Dewasa & Anak-Anak
+                      </a>
+                    </h3>
+
+                    <div class="card-meta">
+                      <a href="#" class="card-meta-wrapper">
+                        <ion-icon
+                          name="person-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">admin</span>
+                      </a>
+
+                      <time class="card-meta-wrapper" datetime="2024-10-12">
+                        <ion-icon
+                          name="calendar-clear-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">October 12, 2024</span>
+                      </time>
+
+                      <a href="#" class="card-meta-wrapper">
+                        <ion-icon
+                          name="folder-open-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Tips & Trick</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1024; --height: 683"
+                  >
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      width="1024"
+                      height="683"
+                      loading="lazy"
+                      alt=" Bisnis Rumahan yang Kini Beromzet Ratusan Juta"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a href="#" class="card-title">
+                        Bisnis Rumahan yang Kini Beromzet Ratusan Juta
+                      </a>
+                    </h3>
+
+                    <div class="card-meta">
+                      <a href="#" class="card-meta-wrapper">
+                        <ion-icon
+                          name="person-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">admin</span>
+                      </a>
+
+                      <time class="card-meta-wrapper" datetime="2024-10-12">
+                        <ion-icon
+                          name="calendar-clear-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">October 12, 2024</span>
+                      </time>
+
+                      <a href="#" class="card-meta-wrapper">
+                        <ion-icon
+                          name="folder-open-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Tips & Trick</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn">
+              <span class="span">Baca Selengkapnya</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="section footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">CognifyVerse</a>
+
+            <p class="footer-text">
+              Kami menghadirkan kerajinan tangan berkualitas yang menggabungkan
+              desain modern dengan sentuhan tradisional. Semua produk dibuat
+              dengan sepenuh hati oleh para pengrajin terbaik.
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Tentang Kami</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Koleksi</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Fitur</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Blog & Berita</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Dukungan</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Akun</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Umpan Balik</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Pusat Bantuan</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Toko Kami</a>
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="footer-list-title">Hubungi Kami</p>
+
+            <p class="footer-text">
+              Punya pertanyaan atau saran? Kami senang mendengarnya!
+            </p>
+
+            <a href="#" class="btn">
+              <span class="span">Kontak Kami</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            Copyright 2024 CognifyVerse. All Right Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
     <script src="./assets/js/script.js"></script>
 
-    <!-- ion icon -->
+    <!-- 
+    - ionicon link
+  -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
